@@ -29,21 +29,3 @@ scikit-learn, pandas, numpy, matplotlib
 | Phishing-Enabled Credential Reset | Contact info change followed shortly by a large transfer |
 
 ## Quick start
-
-```
-git clone https://github.com/Sreenidhi15/AI-Powered-Elder-Fraud-Detection-Pipeline
-cd AI-Powered-Elder-Fraud-Detection-Pipeline
-pip install -r requirements.txt
-python generate_sample_data.py --output logs/sample.csv
-python detect_fraud.py --input logs/sample.csv --output results/scored.csv --json results/alerts.json
-```
-
-## Status
-
-- [x] Project structure and data schema defined
-- [x] Sample scam pattern data generator
-- [x] Feature engineering pipeline
-- [x] Isolation Forest model and scoring
-- [x] Fraud typology mapping
-- [x] JSON alert output
-- [ ] Matplotlib visualization
